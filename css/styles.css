@@ -27,9 +27,21 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
-img {
+img,
+svg {
   display: block;
   max-inline-size: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
 }
 
 .page {

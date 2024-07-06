@@ -23,7 +23,19 @@ body {
   background-color: a.$LightGrayishBlue;
 }
 
-img {
+img,
+svg {
   display: block;
   max-inline-size: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
 }
