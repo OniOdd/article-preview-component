@@ -1,0 +1,10 @@
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-VariableFont_wght.woff2") format("woff2"), url("../assets/fonts/Manrope-VariableFont_wght.woff") format("woff");
+  font-style: normal;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}/*# sourceMappingURL=styles.css.map */
