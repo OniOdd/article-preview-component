@@ -18,6 +18,99 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    <main class="page"></main>
+    <main class="page">
+      <article class="article-preview">
+        <header class="article-preview__header">
+          <figure class="article-preview__hero-wrapper">
+            <picture>
+              <source
+                srcset="./assets/images/photos/drawers.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="./assets/images/photos/drawers.webp"
+                type="image/webp"
+              />
+              <img
+                class="article-preview__hero"
+                src="./assets/images/photos/drawers.jpg"
+                alt="A green dresser with decor sits against a white brick wall"
+              />
+            </picture>
+          </figure>
+        </header>
+        <div class="article-preview__content">
+          <h1 class="article-preview__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="article-preview__description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <footer class="article-preview__footer">
+          <figure class="article-preview__person-container">
+            <picture>
+              <source
+                srcset="./assets/images/avatars/avatar-michelle.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="./assets/images/avatars/avatar-michelle.webp"
+                type="image/webp"
+              />
+              <img
+                class="article-preview__avatar"
+                src="./assets/images/avatars/avatar-michelle.jpg"
+                alt="The avatar shows a woman"
+              />
+            </picture>
+            <div class="article-preview__person-info">
+              <h2 class="article-preview__name">Michelle Appleton</h2>
+              <p class="article-preview__datetime">
+                <time datetime="2020-06-28">28 Jun 2020</time>
+              </p>
+            </div>
+          </figure>
+          <div class="article-preview__share-container">
+            <button
+              class="article-preview__share-icon-wrapper"
+              type="button"
+              aria-label="A button to share on Facebook, Twitter, and Pinterest"
+            >
+              <svg class="article-preview__share-icon">
+                <use
+                  href="./assets/images/icons/icons-sprite.svg#icon-share"
+                ></use>
+              </svg>
+            </button>
+            <dialog class="share">
+              <figure class="share__container">
+                <figcaption class="share__text">Share</figcaption>
+                <div class="share__icons-wrapper">
+                  <svg class="share__icon-facebook">
+                    <use
+                      href="./assets/images/icons/icons-sprite.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                  <svg class="share__icon-twitter">
+                    <use
+                      href="./assets/images/icons/icons-sprite.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                  <svg class="share__icon-pinterest">
+                    <use
+                      href="./assets/images/icons/icons-sprite.svg#icon-pinterest"
+                    ></use>
+                  </svg>
+                </div>
+              </figure>
+            </dialog>
+          </div>
+        </footer>
+      </article>
+    </main>
   </body>
 </html>
