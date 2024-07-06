@@ -1,6 +1,29 @@
 @use "../abstracts" as a;
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
 body {
   font-family: "Manrope", sans-serif;
+  font-size: a.rem(13);
   font-weight: 500;
+  line-height: 1.2;
+  color: a.$DesaturatedDarkBlue;
+  background-color: a.$LightGrayishBlue;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
 }
